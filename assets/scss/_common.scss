@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.pctr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: 2;
+}
+
+
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+  overflow-y: scroll;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+

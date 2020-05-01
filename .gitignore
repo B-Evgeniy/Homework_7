@@ -1,0 +1,9 @@
+node_modules/
+# IntellijIdea files
+.idea/
+.DS_Store
+node_modules/
+TEMP/
+pattern/
+samples/
+yarn.lock

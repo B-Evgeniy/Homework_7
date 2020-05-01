@@ -1,0 +1,60 @@
+.about {
+  background-color: #e5e5e5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
+.about_wrapper {
+  display: flex;
+  justify-content: space-between;
+  min-height: 652px;
+}
+
+.about_text {
+  width: 936px;
+  height: 320px;
+  margin-top: 100px;
+}
+
+.about_text-top {
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: #2d3651;
+  line-height: 50px;
+}
+.about_text-bottom {
+  color: #637588;
+  margin-top: 20px;
+  letter-spacing: 1.8px;
+  line-height: 20px;
+
+  p {
+    padding-top: 28px;
+    margin: 0;
+  }
+}
+
+.about_separator {
+  background-color: rgba(#707070, 0.27);
+  width: 1px;
+  height: 200px;
+  align-self: center;
+}
+
+.about_image {
+  background-image: url(../img/img-lamp-webdev.png);
+  min-width: 271px;
+  min-height: 488px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 35px;
+  margin-right: 10px;
+}
