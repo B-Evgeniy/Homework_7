@@ -2,12 +2,14 @@
   min-height: 120px;
   background-color: #2d3651;
   &_wrapper {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "f1 f2 f3";
+    grid-gap: 20px;
     min-height: 120px;
   }
   &_box {
-    min-width: 420px;
     min-height: 60px;
     align-self: center;
     background-color: rgba(#ffffff, 0.05);
@@ -21,6 +23,15 @@
   }
 }
 
+.form_name {
+  grid-area: f1;
+}
+.form_email {
+  grid-area: f2;
+}
+.form_btn {
+  grid-area: f3;
+}
 
 .form_box::placeholder {
   color: rgba(#ffffff, 0.51);
