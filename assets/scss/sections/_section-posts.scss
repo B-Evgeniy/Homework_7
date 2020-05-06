@@ -41,6 +41,11 @@
   min-height: calc(50vh - 10px);
   overflow: hidden;
 
+  &-block{
+    min-height: 300px;
+    overflow: hidden;
+  }
+
   &-image{
     min-height: 300px;
     background-position: center;

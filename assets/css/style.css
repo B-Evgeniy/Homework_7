@@ -1023,6 +1023,11 @@ li {
   overflow: hidden;
 }
 
+.posts_inner-block {
+  min-height: 300px;
+  overflow: hidden;
+}
+
 .posts_inner-image {
   min-height: 300px;
   background-position: center;
