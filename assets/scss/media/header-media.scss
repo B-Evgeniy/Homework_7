@@ -26,10 +26,19 @@
 @media (max-width: 768px) {
   .menu_hamburger {
     display: block;
+    z-index: 3;
   }
   .menu_logo_list {
     display: none;
   }
+  .menu_logo_list.active{
+    display: block;
+    max-width: 150px;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+  }
+
   .layer-menu {
     display: block;
     position: absolute;
