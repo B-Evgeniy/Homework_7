@@ -6,8 +6,8 @@
   position: relative;
   &_menu {
     max-width: 1320px;
-    margin: 35px auto 0px;
-    padding-left: 10px;
+    margin: 36px auto 0px;
+    padding-left: 6px;
     padding-right: 10px;
   
   }
@@ -28,31 +28,34 @@
   justify-content: space-between;
   &-logo {
     text-transform: uppercase;
-    font-size: 1.5rem;
-    letter-spacing: 0.25rem;
+    font-size: 1.47rem;
+    letter-spacing: 0.27rem;
     z-index: 2;
-    padding-left: 10px;
-  
-    
+    padding-left: 6px;
+      
+  }
+  &-text{
+    padding-left: 6px;
+    letter-spacing: 0.35rem;
   }
   &-border {
     border: 3px solid #d53d27;
     padding-top: 10px;
-    padding-left: 7px;
+    padding-left: 5px;
     padding-bottom: 16px;
     
 
   }
   &_list {
     list-style: none;
-    margin-top: 5px;
+    margin-top: 4px;
     font-size: 1.2rem;
     letter-spacing: 0.07rem;
     
   }
   &_item {
     display: inline;
-    margin-left: 30px;
+    margin-left: 31px;
   }
   &-link:hover {
     color: #d66926;
